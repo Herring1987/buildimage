@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/sig-storage/csi-attacher:v3.0.0
+FROM k8s.gcr.io/dns/k8s-dns-node-cache:1.15.16
