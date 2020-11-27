@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/dns/k8s-dns-node-cache:1.15.16
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.0.1
