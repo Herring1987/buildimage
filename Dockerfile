@@ -1,1 +1,1 @@
-FROM gcr.io/knative-releases/knative.dev/operator/cmd/operator:latest
+FROM k8s.gcr.io/etcd:3.5.1-0
