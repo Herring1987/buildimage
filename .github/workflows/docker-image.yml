@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag etcd:3.5.1-0  && docker push etcd:3.5.1-0
+      run: docker build . --file Dockerfile --tag library/etcd:3.5.1-0  && docker push library/etcd:3.5.1-0
