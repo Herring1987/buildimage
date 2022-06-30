@@ -32,4 +32,4 @@ jobs:
       with: 
         context: .
         push: true
-        tags: herring1987/kube-apiserver:v1.21.7 #${{ steps.meta.outputs.tags }}
+        tags: herring1987/kube-controller-manager:v1.21.7 #${{ steps.meta.outputs.tags }}
