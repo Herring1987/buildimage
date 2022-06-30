@@ -32,5 +32,4 @@ jobs:
       with: 
         context: .
         push: true
-        tags: herring1987/etcd:3.5.1-0 #${{ steps.meta.outputs.tags }}
-        #labels: herring1987/library/etcd #${{ steps.meta.outputs.labels }}
+        tags: herring1987/kube-apiserver:v1.21.7 #${{ steps.meta.outputs.tags }}
